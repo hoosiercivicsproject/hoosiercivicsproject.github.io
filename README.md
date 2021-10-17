@@ -1,1 +1,0 @@
-# hoosiercivicsproject.github.io
