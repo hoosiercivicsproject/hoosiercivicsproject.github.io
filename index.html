@@ -2,31 +2,43 @@
 <html>
 <title>Hoosier Civics Project</title>
 <link rel="stylesheet" href="/assets/css/style.css">
-
- <!-- Header configuration -->
-<div class="header">
-  <p>Hoosier Civics Project</p>
-</div> 
-
- <!-- Add line under the header -->
-<hr>
+<script src="/assets/js/style.js"></script> 
 
 <body>
-
- <!-- Side navigation -->
-<div class="sidenav">
-  <a href="index.html">About</a>
-  <a href="state.html">State</a>
-  <a href="county.html">County</a>
-  <a href="municipality.html">Municipality</a>
-</div>
-
-<!-- Page content -->
-<div class="main">
-
-    <p>The Hoosier Civics Project aims to provide resources </p>
-
-</div> 
-
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Hoosier Civics Project</a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="/structure.html" class="nav-link">Structure</a>
+                </li>
+                <div class="dropdown">
+                    <!-- <button class="dropbtn">Maps
+                      <i class="fa fa-caret-down"></i>
+                    </button> -->
+                    <li class="nav-item">
+                        <a class="dropbtn">Maps</a>
+                    </li>
+                    <div class="dropdown-content">
+                      <a href="/congress.html">Congressional Delegation</a>
+                      <a href="/senate.html">Indiana Senate</a>
+                      <a href="/house.html">Indiana House of Representatives</a>
+                    </div>
+                </div>
+                <li class="nav-item">
+                    <a href="/analysis.html" class="nav-link">Analysis</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/index.html" class="nav-link">About</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
 </body>
+
 </html>
